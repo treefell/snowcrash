@@ -1,0 +1,11 @@
+The exploit is that the program will try to check
+if you have the right the run it and then trying to do something
+the cheap way is to make a symbolic link to the file you want to read
+having a script switching over a dummy which you have right on eventually
+you'll have a match where you swap file inbetween the moment it check
+and the run
+
+you just have to sniff with nc the content
+woupa2yuojeeaaed06riuj63c
+
+log as flag11 get the flag.

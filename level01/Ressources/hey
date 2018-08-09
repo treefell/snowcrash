@@ -1,0 +1,5 @@
+cat /etc/passwd 
+notice flag01 hash
+retrieve hash use john the ripper to crack the hash
+get abcdefg
+

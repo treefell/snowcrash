@@ -1,0 +1,9 @@
+find / -user flag00 2>/dev/null
+you find /usr/sbin/john
+
+cat the file and you get the token crypted with caesar 15
+tr '[A-Za-z]' '[L-ZA-Kl-za-k]'
+to convert it
+nottoohardhere
+
+allowing you to su flag00

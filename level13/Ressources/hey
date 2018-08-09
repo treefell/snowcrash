@@ -1,0 +1,7 @@
+the exploit  at the getuid from the exe, level13
+it call getuid and want uid 4242 by replacing
+getuid with a dummy always returning 4242
+we can get the token
+
+2nd way to do it is to decompile,
+apply ft_des on the string to get the token

@@ -1,0 +1,4 @@
+exploit is at egrep, "^xx" open file and can execute command in the file
+exploiting the `` we can insert stuff
+but the tr turn everything to caps, using /*/ can shortcut /*/
+will match anything after it to everyfile available

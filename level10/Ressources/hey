@@ -1,0 +1,10 @@
+woupa2yuojeeaaed06riuj63c
+
+race condition
+
+the binary level10 take a file and send it to a binary
+it check the condition to open the file and then open it
+since it done in 2 part you can trick the binary
+by switching really fast a  symbolic link
+
+see script for that you then just have to listen to port 6969

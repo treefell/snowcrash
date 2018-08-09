@@ -1,0 +1,19 @@
+2 files the first is a binary that do something
+passing it arg 11111
+you get 12345
+
+second is a token but unreadable cause of unknown chara
+we can expect the file to be encrypted by level09 binary
+
+you cand o it with hands by going trough ascii table and 
+hexdump -b token (octal values)
+hexdump -c token (characteres)
+man ascii
+
+
+making a script/code to undecipher it is easier en safer as you wont have trouble reading
+
+./a.out `cat token`
+python script.py `cat token`
+
+f3iji1ju5yuevaus41q1afiuq

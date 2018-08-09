@@ -1,0 +1,16 @@
+we have a binary and a file named token
+you can't cat token 
+binary ask a file to open and read
+trying to open token with the binary bounce "You may not access token"
+
+by creating a symbolic link
+ln -s token /tmp/any
+you can use the binary to read the file
+token allow to log as flag08
+getflag to retrieve the flag
+
+
+further explanation
+the binary strstr the name of the file with token
+as long as the name file contain token it will prevent reading
+the "You may not access %s" is hard coded

