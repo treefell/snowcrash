@@ -2,6 +2,7 @@ find / -user flag00 2>/dev/null
 you find /usr/sbin/john
 
 cat the file and you get the token crypted with caesar 15
+https://www.dcode.fr/chiffre-cesar
 tr '[A-Za-z]' '[L-ZA-Kl-za-k]'
 to convert it
 nottoohardhere

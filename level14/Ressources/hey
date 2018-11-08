@@ -1,7 +1,7 @@
 
 g <t61:|4_|!@IF.-62FH&G~DCK/Ekrvvdwz?v|
 must use ft_des on it.
-use gdb
+use gdb on getflag
 break main
 jump *0x08048bbb
 continue
